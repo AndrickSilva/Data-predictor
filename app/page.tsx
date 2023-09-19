@@ -14,7 +14,8 @@ export default function Home() {
     setInputValue("")
   }
   return (
-    <main className="flex justify-center items-center flex-col min-h-screen bg-slate-700">
+    <main className="flex items-center flex-col min-h-screen bg-slate-700">
+      <h1 className='py-32 text-slate-200 text-5xl font-bold'>Predict You Data</h1>
       <div className="flex flex-col bg-slate-800 p-8 rounded-md shadow-lg">
         <h1 className='text-orange-500 mb-4 font-bold text-xl'>Enter Your name</h1>
         <form className='flex flex-col ' onSubmit={handleSubmit}>
