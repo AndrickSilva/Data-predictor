@@ -31,7 +31,7 @@ const page = async ({ params }: Params) => {
             <div className="flex flex-col bg-slate-800 py-6 px-12 rounded-lg shadow-md">
                 <h2 className="text-orange-500 text-2xl font-bold mb-4">Personal Info</h2>
                 <div className="text-slate-200">
-                    <p>Params : {params.name}</p>
+                    <p>Name : {params.name}</p>
                     <p>Age : {age?.age}</p>
                     <p>Gender : {gender?.gender}</p>
                     <p>Country : {country?.country[0]?.country_id}</p>
